@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+
+}
+header img{
+    width: 60px;
+    /* height: 60px; */
+    color: white;
+    margin-right: 5px;
+    
+}
+a{
+    list-style-type:none;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    padding-right: 10px;
+    align-items: center;
+}
+.nav-links{
+    list-style-type: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.nav-links li a:hover{
+color: #47b2e4;
+}
+.btn-login{
+    border-radius: 10px;
+    background-color:#47b2e4;
+    border-style: none;
+    color: black;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.btn-login:hover{
+    background-color:rgb(42, 216, 239,1.0);
+}
+.nav-links li a{
+    color:white;
+    }
+.big{
+    font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    color: white;
+}
+.small{
+    font-size: 20px;
+    font-family: 'Mooli', sans-serif;
+    color:blanchedalmond;
+}
+.main-image{
+    height:400px;
+    width: 500px;
+    background-color: black;
+    animation: updown 2s infinite;
+    
+}
+.main{
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.spn-get{
+    background-color:rgb(42, 216, 239,1.0);
+    
+    
+margin-top: 90px;
+align-items: center;
+border-radius: 10px;
+padding: 3px;
+border-style: none;
+width: 95px;
+height: 35px;
+transition: .5s;
+
+}
+
+.spn-get:hover{
+    background-color:#2d7394;
+    cursor: pointer;
+}
+
+@keyframes updown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.clients {
+    text-align: center;
+    background-color: #dcddd6;
+    color: #2d7394;
+    font-size: x-large;
+    justify-content: center;
+    padding: 70px 30px ;
+    
+}
+.clients p{
+    font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.logo{
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 20px;
+    
+}
+.aboutus{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    color: #2d7394;
+    font-size: 40px;
+    justify-content: center;
+    font-family: 'Mooli', sans-serif;
+    
+}
+.wxy{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Mooli', sans-serif;
+    
+}
+
+.foot{
+    padding: 30px 50px;
+    background-color:#37517e;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    
+}
+.wxy img{
+    width: 500px;
+    height: 150px;
+}
+.wxy p{
+    width: 500px;
+}
+
